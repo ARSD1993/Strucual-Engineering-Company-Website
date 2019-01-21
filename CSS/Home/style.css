@@ -1,0 +1,82 @@
+html, body {
+  height:100%;
+  margin:0;
+  padding:0;
+}
+.carousel, .item, .active {
+  height:100%;
+}
+.carousel-inner {
+  height:100%;
+}
+.carousel-item {
+  height:100%;
+  overflow: hidden;
+  width: 100%;
+}
+.carousel-item img {
+width: 100%;
+}
+
+.nav-item {
+    color: #ffffff !important;
+}
+
+.fa.fa-navicon {
+  color:white;
+}
+
+@media (max-width: 575px) {
+    .navbar-brand {
+    color: #ffffff !important;
+    font-size: 25px !important;
+    }
+
+.navbar-brand h6 {
+	font-size: 12.5px !important;
+}
+}
+
+@media (min-width: 576px) {
+    .navbar-brand {
+    color: #ffffff !important;
+    font-size: 30px !important;
+    }
+
+.navbar-brand h6 {
+	font-size: 15px !important;
+}
+}
+
+@media (min-width: 768px) {
+    .navbar-brand {
+    color: #ffffff !important;
+    font-size: 40px !important;
+    }
+
+.navbar-brand h6 {
+	font-size: 20px !important;
+}
+}
+
+@media (min-width: 992px) { 
+	.navbar-brand {
+    color: #ffffff !important;
+    font-size: 50px !important;
+   }
+
+   .navbar-brand h6 {
+	font-size: 25px !important;
+   }
+ }
+
+ @media (min-width: 1200px) { 
+ 	.navbar-brand {
+    color: #ffffff !important;
+    font-size: 50px !important;
+   }
+
+   .navbar-brand h6 {
+	font-size: 25px !important;
+   }
+ }
